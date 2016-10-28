@@ -1,0 +1,15 @@
+.navigation {
+  background: rgba(#000, 0.1);
+
+  &-list {
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(space-around);
+    min-height: 100vh;
+  }
+
+  a {
+    padding: 2em;
+  }
+}

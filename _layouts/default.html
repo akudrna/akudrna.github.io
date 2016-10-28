@@ -7,10 +7,35 @@
     <meta name="robots" content="noindex">
     {% seo title=false %}
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.1/svg4everybody.min.js"></script>
   </head>
   <body>
+    <!-- https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items -->
+    <div class="flex-wrapper">
+      <div class="wrapper">
+        <nav class="navigation">
+          <ol class="navigation-list">
+            {% for item in site.data.navigation %}
+            <li class="navigation-item">
+              <a href="{{ site.baseurl }}/{% if item.id != 'home' %}{{ item.id }}{% endif %}">
+                <svg class="navigation-icon" role="img" title="{{ item.name }}" width="48" height="48">
+                  <use xlink:href="{{ site.baseurl }}/images/icons.svg#{{ item.id }}" />
+                </svg>
+              </a>
+            </li>
+            {% endfor %}
+          </ol>
+        </nav>
+        <main class="main">
+          {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
 
-    {{ content }}
+          {{ content }}
 
+        </main>
+      </div>
+    </div>
+    <script>
+      svg4everybody();
+    </script>
   </body>
 </html>

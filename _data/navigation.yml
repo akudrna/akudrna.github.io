@@ -1,0 +1,18 @@
+-
+  name: Home
+  id: home
+-
+  name: CV
+  id: cv
+-
+  name: Testimonials
+  id: testimonials
+-
+  name: Photography
+  id: photography
+-
+  name: 3D Modeling
+  id: 3d
+-
+  name: Fails
+  id: fails
