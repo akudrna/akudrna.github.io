@@ -4,6 +4,7 @@
   text-transform: lowercase;
 
   &-list {
+    @extend %list-unstyled;
     @include display(flex);
     @include flex-direction(column);
     @include justify-content(space-around);
