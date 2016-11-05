@@ -36,8 +36,18 @@
         </main>
       </div>
     </div>
-    <script>
-      svg4everybody();
-    </script>
+    <div class="anecdotes">
+      <div class="anecdotes-inner">
+        <button class="anecdotes-close" type="button">✕</button>
+        {% for a in site.data.anecdotes %}
+        <div class="anecdotes-item">
+          {{ a.text | markdownify }}
+        </div>
+        {% endfor %}
+        <button class="anecdotes-next" type="button">Tell me an anecdote</button>
+      </div>
+    </div>
+    <script>svg4everybody()</script>
+    <script src="{{ site.baseurl }}/scripts/main.js"></script>
   </body>
 </html>
