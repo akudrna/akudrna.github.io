@@ -1,15 +1,42 @@
 .navigation {
   background: rgba(#000, 0.1);
+  font-variant: small-caps;
+  text-transform: lowercase;
 
   &-list {
     @include display(flex);
     @include flex-direction(column);
-    @include align-items(center);
     @include justify-content(space-around);
     min-height: 100vh;
   }
 
+  &-item:after {
+    content: '';
+    display: block;
+    max-width: 3rem;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(#000, 0.1);
+  }
+
+  &-item:last-child:after {
+    content: normal;
+  }
+
   a {
-    padding: 2em;
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(#000, 0.5);
+
+    &:hover,
+    &:focus {
+      color: #000;
+    }
+  }
+
+  svg {
+    margin-bottom: 0.5rem;
   }
 }
