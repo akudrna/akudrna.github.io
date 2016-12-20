@@ -3,12 +3,16 @@ title: Curriculum Vitae
 ---
 
 EDUCATION
+
 University of Zagreb, Faculty of Humanities and Social Sciences
+
 Masters 1: Philosophy (educational course)
+
 Masters 2: Social-humanistic informatics
 
 
 WORK EXPERIENCE
+
 Sept.  '14. – Aug. '16.
 President and marketing manager, Faculty of Hum-Soc Rowing club (facebook.com/ffzgvk)
 Mar. '14. – May '14.
@@ -30,6 +34,7 @@ Telesales agent, Iskon internet
 
 
 VOLUNTEERING
+
 Sept. '16. – Sept. '16.
 Science fair organization staff member, Professor Baltazar Association
 Oct. '13. – July '14.
@@ -43,6 +48,7 @@ Photographer, Croatian association of artists
 
 
 CERTIFICATES (Coursera)
+
 2015.
 Successful Negotiation: Essential Strategies and Skills, University of Michigan
 2015.
@@ -52,6 +58,7 @@ Think Again: How to Reason and Argue, Duke University
 
 
 SCIENTIFIC PUBLICATION
+
 Scientific article
 E-learning from the perspective of teachers,  INFuture2013.
 
@@ -60,15 +67,14 @@ A. Kudrna, L.  Ljevaković, 2013 (infoz.ffzg.hr/INFuture/2013/ConferenceProgram.
 
 
 LANGUAGES
-Croatian
-Native language
-English
-English language certificate (C1), Soc-Hum Faculty's Center for foreign languages, 2014.
-Spanish
-Elementary proficiency
+
+Croatian: Native language
+English: English language certificate (C1), Soc-Hum Faculty's Center for foreign languages, 2014.
+Spanish: Elementary proficiency
 
 
 AWARDS
+
 Scholarship
 Erasmus+ scholarship for University of Ljubljana, University of Zagreb, 2014.
 Photography
@@ -78,13 +84,9 @@ Silver medal at University women's eights regatta, Zagreb Rowing Association, 20
 
 
 SKILLS
-Education
-Lecturing, mentoring, MOOC, e-learning
-Management
-Projects, analysis, planning, organizing, teamwork
-Business
-PR, marketing, negotiations, presentations
-IT tools
-Microsoft Office (Word, PowerPoint, Excel), Adobe (Photoshop, Premiere), Zbrush, CMS
-Hobbies
-Drawing, photography, image&video editing, 3D modeling and animation, gaming, rowing
+
+Education: Lecturing, mentoring, MOOC, e-learning
+Management: Projects, analysis, planning, organizing, teamwork
+Business: PR, marketing, negotiations, presentations
+IT tools: Microsoft Office (Word, PowerPoint, Excel), Adobe (Photoshop, Premiere), Zbrush, CMS
+Hobbies: Drawing, photography, image&video editing, 3D modeling and animation, gaming, rowing
