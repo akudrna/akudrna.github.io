@@ -22,9 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akudrna.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 gems:
-  - jekyll-default-layout
   - jekyll-redirect-from
-  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
