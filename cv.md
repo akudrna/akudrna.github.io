@@ -1,6 +1,9 @@
 ---
+layout: default
 title: Curriculum Vitae
 ---
+
+# {{ page.title }}
 
 EDUCATION
 
