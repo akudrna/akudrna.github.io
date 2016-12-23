@@ -1,14 +1,10 @@
-.flex-wrapper {
-  @include display(flex);
-  @include flex-direction(column);
-}
-
-.wrapper {
-  @include display(flex);
-  min-height: 100vh;
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .main {
-  @include flex(1 1 0%);
-  padding: 1.5em 2em;
+  padding: 2rem 1.5rem 2rem $navigation-width;
 }

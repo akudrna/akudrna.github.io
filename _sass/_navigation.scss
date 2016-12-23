@@ -1,5 +1,9 @@
 .navigation {
-  background: rgba(#000, 0.1);
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+  width: $navigation-width;
+  padding: 1rem;
   font-variant: small-caps;
   text-transform: lowercase;
 
@@ -7,16 +11,28 @@
     @extend %list-unstyled;
     @include display(flex);
     @include flex-direction(column);
-    @include justify-content(space-around);
-    min-height: 100vh;
+    height: 600px;
+    background: rgba(#000, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
   }
 
-  &-item:after {
-    content: '';
-    display: block;
-    max-width: 3rem;
-    margin: 0 auto;
-    border-bottom: 2px solid rgba(#000, 0.1);
+  &-item {
+    @include flex(1 1 0%);
+    @include display(flex);
+    border-top: 2px solid darken(#fff, 15%);
+
+    &:first-child {
+      border-top: 0;
+    }
+
+    &.active {
+      border-color: $color-primary;
+
+      + li {
+        border-color: $color-primary;
+      }
+    }
   }
 
   &-item:last-child:after {
@@ -24,10 +40,12 @@
   }
 
   a {
+    @include flex(1 1 0%);
     @include display(flex);
     @include flex-direction(column);
     @include align-items(center);
-    padding: 1rem;
+    @include justify-content(center);
+    padding: 1rem 0;
     text-decoration: none;
     color: rgba(#000, 0.5);
 
@@ -37,7 +55,13 @@
     }
   }
 
+  &-item.active a {
+    background: $color-primary;
+    color: #fff;
+  }
+
   svg {
     margin-bottom: 0.5rem;
+    fill: currentColor;
   }
 }

@@ -17,7 +17,7 @@
         <nav class="navigation">
           <ol class="navigation-list">
             {% for n in site.data.navigation %}
-            <li class="navigation-item">
+            <li class="navigation-item{% if n.id == page.id %} active{% endif %}">
               <a href="{{ site.baseurl }}/{% if n.id != 'home' %}{{ n.id }}{% endif %}">
                 <svg class="navigation-icon" role="presentation" width="48" height="48">
                   <use xlink:href="{{ site.baseurl }}/images/icons.svg#{{ n.id }}" />
