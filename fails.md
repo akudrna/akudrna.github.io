@@ -4,8 +4,6 @@ title: Fails
 id: fails
 ---
 
-# {{ page.title }}
-
 We all love to show our successes, don't we? And we should. But failures are a necessary part of any human life. Let me tell you about just a few of my **failures**:
 
   - **I quite music school** as a kid. I was too shy for performances.

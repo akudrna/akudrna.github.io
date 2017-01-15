@@ -10,6 +10,28 @@
 -
   name: Portfolio
   id: portfolio
+  items:
+    -
+      name: Drawings
+      id: drawings
+    -
+      name: Photography
+      id: photography
+    -
+      name: Photo Manipulations
+      id: photo-manipulations
+    -
+      name: Makeup
+      id: makeup
+    -
+      name: Design
+      id: design
+    -
+      name: 3D Modeling
+      id: 3d
+    -
+      name: Video Editing
+      id: video
 -
   name: Fails
   id: fails

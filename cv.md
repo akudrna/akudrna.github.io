@@ -4,8 +4,6 @@ title: Curriculum Vitae
 id: cv
 ---
 
-# {{ page.title }}
-
 EDUCATION
 
 University of Zagreb, Faculty of Humanities and Social Sciences

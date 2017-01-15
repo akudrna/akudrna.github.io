@@ -1,9 +1,8 @@
 ---
 layout: default
 id: home
+title: Anamaria Kudrna
 ---
-
-# {{ site.title }}
 
 {% include avatar.html %}
 
