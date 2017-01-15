@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width">
     {% seo title=false %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css?{{ site.time | date: '%s%N' }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.1/svg4everybody.min.js"></script>
   </head>
   <body>
@@ -61,6 +61,6 @@
       </div>
     </div>
     <script>svg4everybody()</script>
-    <script src="{{ site.baseurl }}/scripts/main.js"></script>
+    <script src="{{ site.baseurl }}/scripts/main.js?{{ site.time | date: '%s%N' }}"></script>
   </body>
 </html>
