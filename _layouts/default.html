@@ -18,7 +18,7 @@
           <ol class="navigation-list">
             {% for n in site.data.navigation %}
             <li class="navigation-item{% if n.id == page.id or n.id == page.subnav %} active{% endif %}">
-              <a href="{{ site.baseurl }}/{% if n.id != 'home' %}{{ n.id }}{% endif %}">
+              <a href="{{ site.baseurl }}/{% if n.id != 'about' %}{{ n.id }}{% endif %}">
                 <svg class="navigation-icon" role="presentation" width="48" height="48">
                   <use xlink:href="{{ site.baseurl }}/images/icons.svg#{{ n.id }}" />
                 </svg>

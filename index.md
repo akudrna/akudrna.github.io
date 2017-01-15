@@ -1,6 +1,6 @@
 ---
 layout: default
-id: home
+id: about
 title: Anamaria Kudrna
 ---
 
