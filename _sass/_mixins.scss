@@ -1,0 +1,10 @@
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin on-nav-collapse {
+  @media (max-height: 568px) {
+    @content;
+  }
+}

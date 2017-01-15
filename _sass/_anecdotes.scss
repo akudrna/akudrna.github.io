@@ -3,6 +3,10 @@
   bottom: 0;
   right: 0;
 
+  @include on-nav-collapse {
+    display: none;
+  }
+
   &-item {
     display: none;
   }

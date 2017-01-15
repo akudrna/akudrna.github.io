@@ -5,12 +5,12 @@
 @import "vendor/bourbon/bourbon";
 
 @import "variables";
+@import "mixins";
 
 @import "base";
 
 @import "anecdotes";
 @import "avatar";
-@import "layout";
 @import "navigation";
 @import "subnavigation";
 @import "testimonials";
