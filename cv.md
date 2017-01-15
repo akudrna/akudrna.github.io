@@ -21,9 +21,9 @@ Sept.  '14. – Aug. '16.
 President and marketing manager, Faculty of Hum-Soc Rowing club (facebook.com/ffzgvk)
 Mar. '14. – May '14.
 Marketing video project team lead, Studentski.hr web portal
-Oct. '13. – Feb. '14. 
+Oct. '13. – Feb. '14.
 Educational/IT Project manager, Faculty of Hum-Soc (google.com/site/o3dprojekt/home)
-2009. – 2013. 
+2009. – 2013.
 Lead photographer and organization assistant, INFuture international conferences
 Nov. '12. – Dec. '12.
 Digitization Assistant, The Miroslav Krleža Institute of Lexicography
