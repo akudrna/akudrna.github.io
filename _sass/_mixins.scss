@@ -4,7 +4,7 @@
 }
 
 @mixin on-nav-collapse {
-  @media (max-height: 568px) {
+  @media (max-width: 600px) {
     @content;
   }
 }
