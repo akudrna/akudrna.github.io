@@ -4,6 +4,7 @@
   @include align-items(center);
   @include flex-wrap(wrap);
   margin-top: -1.5rem;
+  margin-bottom: 1rem;
 
   &-item {
     margin: 0.25rem;
