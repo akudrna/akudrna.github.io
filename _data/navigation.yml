@@ -8,11 +8,8 @@
   name: Testimonials
   id: testimonials
 -
-  name: Photography
-  id: photography
--
-  name: 3D Modeling
-  id: 3d
+  name: Portfolio
+  id: portfolio
 -
   name: Fails
   id: fails
