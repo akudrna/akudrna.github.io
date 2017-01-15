@@ -3,8 +3,7 @@
   @include display(flex);
   @include align-items(center);
   @include flex-wrap(wrap);
-  margin-top: -1.5rem;
-  margin-bottom: 1rem;
+  margin: -1.5rem 0 1rem -0.25rem;
 
   &-item {
     margin: 0.25rem;
