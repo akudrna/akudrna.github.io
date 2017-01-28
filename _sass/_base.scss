@@ -13,9 +13,9 @@ html {
 }
 
 .main {
-  padding: 2rem 1.5rem 2rem $navigation-width;
+  padding: 1rem 1.5rem 1.5rem $navigation-width;
   @include on-nav-collapse {
-    padding: 44px 1rem 1rem;
+    padding: $mobile-navigation-height 1rem 1rem;
   }
 }
 

@@ -36,10 +36,10 @@
 
     @include on-nav-collapse {
       @include flex-direction(row);
-      height: 44px;
+      height: $mobile-navigation-height;
       border-bottom: 1px solid #c4c4c4;
       border-radius: 0;
-      background: #fff;
+      background: #F7F7F7;
     }
   }
 
@@ -105,9 +105,10 @@
     fill: currentColor;
 
     @include on-nav-collapse {
-      margin-bottom: 0.1rem;
-      width: 16px;
-      height: 16px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      width: 24px;
+      height: 24px;
     }
   }
 }
