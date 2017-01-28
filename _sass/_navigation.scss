@@ -16,6 +16,7 @@
   text-transform: lowercase;
 
   @include on-nav-collapse {
+    position: absolute;
     bottom: auto;
     right: 0;
     width: auto;
