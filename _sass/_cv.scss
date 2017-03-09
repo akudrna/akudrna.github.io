@@ -70,7 +70,7 @@ $color-border: darken(#fff, 25%);
   // filtering
 
   @for $i from 1 through 9 {
-    &[data-filter="#{$i}"] &-item:not([data-tags~="#{$i}"]) {
+    &[data-filter="#{$i}"] [data-tags]:not([data-tags~="#{$i}"]) {
       display: none;
     }
   }

@@ -43,7 +43,17 @@ id: cv
 <script>
   var container = document.querySelector('.cv');
   var select = container.querySelector('.cv-select');
+  var sections = container.querySelectorAll('.cv-section');
   select.addEventListener('change', function () {
     container.setAttribute('data-filter', select.value);
+  });
+  Array.prototype.forEach.call(sections, function (section) {
+    var items = section.querySelectorAll('.cv-item');
+    var tags = Array.prototype.reduce.call(items, function (result, item) {
+      return result.concat(item.getAttribute('data-tags').split(" "));
+    }, []).filter(function (tag, index, self) {
+      return self.indexOf(tag) === index;
+    });
+    section.setAttribute('data-tags', tags.join(' '));
   });
 </script>
