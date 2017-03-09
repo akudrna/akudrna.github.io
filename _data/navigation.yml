@@ -5,9 +5,6 @@
   name: CV
   id: cv
 -
-  name: Testimonials
-  id: testimonials
--
   name: Portfolio
   id: portfolio
   items:
