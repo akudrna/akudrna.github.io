@@ -1,0 +1,49 @@
+---
+layout: default
+title: Curriculum Vitae
+id: cv
+---
+
+<article class="cv" data-filter="0">
+  <label class="cv-label">
+    <span>Filter:</span>
+    <select class="cv-select">
+      <option value="0" selected>All</option>
+      {% for filter in site.data.filters %}
+      <option value="{{ filter.id }}">{{ filter.name }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  {% for section in site.data.cv %}
+  <section class="cv-section">
+    <h2 class="cv-heading">{{ section.title }}</h2>
+    <ul class="cv-items{% unless section.has_time %} styled{% endunless %}">
+      {% for item in section.items %}
+      <li class="cv-item" data-tags="{{ item.tags | join: ' ' }}">
+        <div class="cv-row">
+          {% if item.time %}
+          <div class="cv-time">
+            {% case item.time.size %}
+            {% when 1 %}
+            {{ item.time[0] }}
+            {% when 2 %}
+            {{ item.time[0] }}<br />–{{ item.time[1] }}
+            {% endcase %}
+          </div>
+          {% endif %}
+          <div class="cv-name">{{ item.name | markdownify }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</article>
+
+<script>
+  var container = document.querySelector('.cv');
+  var select = container.querySelector('.cv-select');
+  select.addEventListener('change', function () {
+    container.setAttribute('data-filter', select.value);
+  });
+</script>

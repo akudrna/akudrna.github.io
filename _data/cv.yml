@@ -1,0 +1,237 @@
+# 1 = informatology
+# 2 = teaching, e-learning
+# 3 = philosophy
+# 4 = management
+# 5 = digital art
+# 6 = PR, marketing
+
+-
+  title: Education
+  has_time: true
+  items:
+    -
+      name: "Masters 1: Philosophy (educational), Faculty of Humanities and Social Sciences, Zagreb/Ljubljana"
+      time:
+        - 2017.
+      tags: [1, 2, 3]
+    -
+      name: "Masters 2: Social-humanistic informatics (research), Faculty of Humanities and Social Sciences, Zagreb"
+      time:
+        - 2017.
+      tags: [1, 2, 3]
+
+-
+  title: Coursera Certificates
+  has_time: true
+  items:
+    -
+      name: "Fundamentals of Project Planning and Management, University of Virginia"
+      time:
+        - 2016.
+      tags: [1, 2, 4]
+    -
+      name: "Fundamentals of Project Planning and Management, University of Virginia"
+      time:
+        - 2015.
+      tags: [1, 2, 4]
+    -
+      name: "Managing the Company of the Future, University of London"
+      time:
+        - 2015.
+      tags: [1, 2, 4]
+    -
+      name: "Think Again: How to Reason and Argue, Duke University"
+      time:
+        - 2013.
+      tags: [1, 2, 3, 4]
+
+-
+  title: Work Experience
+  has_time: true
+  items:
+    -
+      name: "IT conference organization assistant, Citus/Mobendo ([mobilityday.com](http://mobilityday.com))"
+      time:
+        - September 2016.
+      description:
+        - IT conference organization assistant, Citus/Mobendo (mobilityday.com)
+      tags: [1]
+    -
+      name: "[Science fair organization staff](http://znanstvenipiknik.weebly.com/piknik-2016.html), Professor Baltazar Association/Ruđer Bošković Institute/Carnet"
+      time:
+        - September 2016.
+      description:
+        - helping with the event materials distribution, presenting the technological gadgets to visitors
+      tags: [1, 2]
+    -
+      name: "[Freelance image editor](https://www.upwork.com/o/profiles/users/_~01276da14d5cdbbd28/), Upwork"
+      time:
+        - May 2016.
+        - June 2016.
+      description:
+        - editing images (real estate, portraits, fashion, commercial etc.)
+      results:
+        - received a highly positive feedback
+      tags: [1, 5]
+    -
+      name: "President and marketing manager, [FHSSZG rowing club](https://www.facebook.com/FFZGvk)"
+      time:
+        - September 2014.
+        - August 2016.
+      description:
+        - business (financial and operative plans, contracts, documentation)
+        - organization (crew coordination, competition applications, trip organization)
+        - PR (collaboration with partners/sponsors/media, event organization)
+        - marketing (campaign development and execution, digital marketing, multimedia)
+      results:
+        - established 10+ partner collaborations
+        - received 15K+ kn sponsorship/donation
+        - sent 2 crews to a 4 day free trip to the international Warsaw regatta
+        - got the FHSSZG featured on national TV
+      tags: [1, 4, 6]
+    -
+      name: "Marketing project manager, [Studentski.hr](http://studentski.hr/zabava/studentski-zivot)"
+      time:
+        - March 2014.
+        - May 2014.
+      description:
+        - scenario development (writing a fun story for a promotional video)
+        - recruitment and coordination (hiring actors, team coordination)
+        - video production logistics (permits, route and schedule planning, team coordination)
+        - montage (CC music, video montage, publishing)
+      results:
+        - hired 15+ volunteer crew members
+        - managed a team of 20+ people
+        - produced a video with 2,5K views with a minimal budget and a narrow time frame
+      tags: [1, 4, 5, 6]
+    -
+      name: "E-learning project manager, Department of ICS, FHSSZG"
+      time:
+        - October 2013.
+        - February 2014.
+      description:
+        - project initiation (objectives, team roles assignment)
+        - project planning (operative and executive plan, communication, partnerships)
+        - project execution (Moodle e-course development, workshops, e-course execution)
+        - project closing (participant evaluation, analysis, project documentation)
+      results:
+        - designed and created a Moodle course
+        - arranged 3D scanning/printing workshops
+        - partnered with Topomatika d.o.o.
+        - involved 50+ people in project
+        - issued certificates for successful participants
+      tags: [1, 2, 4, 6]
+    -
+      name: "Association secretary, [FHSSZG's Student counselor](http://www.ffzg.unizg.hr/studentski-savjetnik/)"
+      time:
+        - October 2013.
+        - July 2014.
+      description:
+        - evaluating/developing students' projects, advising students regarding studying issues, mentoring students
+      tags: [1]
+    -
+      name: "Student mentor, Trade High School Zagreb ([YouTube video](https://www.youtube.com/watch?v=69pL_VtPSFU))"
+      time:
+        - March 2013.
+        - April 2013.
+      description:
+        - moderating students' meetings
+        - assisting with script and the filming route
+        - photographing the movie production
+      tags: [2]
+    -
+      name: "Digitization assistant, [The Miroslav Krleža Institute of Lexicography](http://dfest.nsk.hr/)"
+      time:
+        - November 2012.
+        - December 2012.
+      description:
+        - scanning the materials, reviewing and correcting the digitized material with OCR software
+      tags: [1]
+    -
+      name: "Photographer, [Croatian association of artists](http://goo.gl/qzmtZN)"
+      time:
+        - December 2012.
+      description:
+        - photographing the items from the artOmat exhibition
+      tags: [5]
+    -
+      name: "Archives assistant, [Croatian state archive – film archive](http://zagreb.arhiv.hr/hr/hda/fs-ovi/kinoteka.htm)"
+      time:
+        - October 2010.
+      description:
+        - organizing CDs/DVDs, entering database metadata entry, material labeling
+      tags: [1, 5]
+
+-
+  title: Scientific Publication
+  has_time: true
+  items:
+    -
+      name: "E-learning from the perspective of teachers at the University of Zagreb, INFuture2013."
+      time:
+        - 2013.
+      tags: [1, 2]
+    -
+      name: "[A. Kudrna, L. Ljevaković, 2013.](http://infoz.ffzg.hr/INFuture/2013/ConferenceProgram.aspx)"
+      time:
+        - 2013.
+      tags: [1, 2]
+
+-
+  title: English
+  has_time: true
+  items:
+    -
+      name: "English language certificate (C1), FHSSZG's Center for foreign languages"
+      time:
+        - 2014.
+      tags: []
+
+-
+  title: Awards
+  has_time: true
+  items:
+    -
+      name: "Erasmus+ student exchange scholarship for University of Ljubljana, University of Zagreb"
+      time:
+        - 2014.
+      tags: [2, 3]
+    -
+      name: "Silver medal at University rowing eights women novice regatta, Zagreb Rowing Association"
+      time:
+        - 2014.
+      tags: []
+    -
+      name: "1st place at photography competition, KUIS"
+      time:
+        - 2013.
+      tags: [5]
+
+-
+  title: Skills
+  has_time: false
+  items:
+    -
+      name: "Teaching, presentations, public speaking, e-learning, MOOC"
+      label: Education
+      tags: [1, 2]
+    -
+      name: "Philosophy, logic, ethics, bioethics, philosophy of science, scientific methodology"
+      label: Philosophy
+      tags: [3]
+    -
+      name: "Projects, analysis, planning, organizing, coordination, communications, negotiations, partnerships"
+      label: Management
+      tags: [1, 4, 6]
+    -
+      name: "Facebook ads, posters, events"
+      label: Marketing
+      tags: [1, 5, 6]
+    -
+      name: "MS Office (Word, PowerPoint, Excel), Adobe (Photoshop, Premiere), Zbrush, Collaborative Management System"
+      label: IT tools
+      tags: [1, 4, 5]
+    -
+      name: "Drawing, photography, photo manipulation, 3D modeling, 3D animation, video editing, gaming, rowing"
+      label: Hobbies
+      tags: [1, 5]

@@ -1,0 +1,77 @@
+$color-border: darken(#fff, 25%);
+
+.cv {
+  &-section {
+    padding: 1rem 0;
+  }
+
+  &-heading {
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.25rem solid darken(#fff, 25%);
+  }
+
+  &-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-items.styled {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    list-style: disc;
+
+    * {
+      display: inline-block;
+    }
+
+    li {
+      display: list-item;
+    }
+  }
+
+  &-items.styled &-name {
+    padding: 0.5rem 0;
+  }
+
+  &-row {
+    @include display(flex);
+  }
+
+  &-time {
+    width: 10rem;
+    margin-right: 1rem;
+    padding: 1.2rem 1rem;
+    background: $color-bg;
+    border-right: 0.25rem solid $color-border;
+    border-bottom: 0.15rem solid $color-border;
+    border-left: 0.25rem solid $color-border;
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 0.75em;
+    text-transform: uppercase;
+  }
+
+  &-item:last-child &-time {
+    border-bottom: 0.25rem solid $color-border;
+  }
+
+  &-name {
+    @include flex(1);
+    padding: 1rem 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  // filtering
+
+  @for $i from 1 through 9 {
+    &[data-filter="#{$i}"] &-item:not([data-tags~="#{$i}"]) {
+      display: none;
+    }
+  }
+}
