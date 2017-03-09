@@ -1,6 +1,19 @@
 $color-border: darken(#fff, 25%);
 
 .cv {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 2px;
+    background: $color-bg;
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+    bottom: 0;
+  }
+
   &-section {
     margin-top: 1rem;
   }
@@ -8,7 +21,7 @@ $color-border: darken(#fff, 25%);
   &-heading {
     margin: 0;
     padding-bottom: 0.5rem;
-    border-bottom: 0.25rem solid darken(#fff, 25%);
+    padding-left: 11rem;
   }
 
   &-items {
@@ -17,50 +30,37 @@ $color-border: darken(#fff, 25%);
     list-style: none;
   }
 
-  &-items.styled {
-    margin-top: 0.5rem;
-    padding-left: 1.5rem;
-    list-style: disc;
-
-    * {
-      display: inline-block;
-    }
-
-    li {
-      display: list-item;
-    }
-  }
-
-  &-items.styled &-name {
-    padding: 0.3rem 0;
-  }
-
   &-row {
     @include display(flex);
   }
 
   &-time {
+    position: relative;
     width: 10rem;
     margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    background: $color-bg;
-    border-right: 0.25rem solid $color-border;
-    border-bottom: 0.15rem solid $color-border;
-    border-left: 0.25rem solid $color-border;
+    padding: 0.2rem 1rem;
     text-align: right;
     font-weight: bold;
     letter-spacing: 0.05em;
     font-size: 0.75em;
     text-transform: uppercase;
-  }
 
-  &-item:last-child &-time {
-    border-bottom: 0.25rem solid $color-border;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: -6px;
+      width: 0.5rem;
+      height: 0.5rem;
+      border: 2px solid darken(#fff, 25%);
+      background: #fff;
+      border-radius: 0.5rem;
+    }
   }
 
   &-name {
     @include flex(1);
-    padding: 0.3rem 0;
 
     p {
       margin: 0;

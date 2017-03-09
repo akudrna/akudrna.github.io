@@ -15,9 +15,9 @@ id: cv
     </select>
   </label>
   {% for section in site.data.cv %}
-  <section class="cv-section">
+  <section class="cv-section{% if section.has_time %} has-time{% endif %}">
     <h2 class="cv-heading">{{ section.title }}</h2>
-    <ul class="cv-items{% unless section.has_time %} styled{% endunless %}">
+    <ul class="cv-items">
       {% for item in section.items %}
       <li class="cv-item" data-tags="{{ item.tags | join: ' ' }}">
         <div class="cv-row">
@@ -30,6 +30,8 @@ id: cv
             {{ item.time[0] }}<br />–{{ item.time[1] }}
             {% endcase %}
           </div>
+          {% else %}
+          <div class="cv-time"></div>
           {% endif %}
           <div class="cv-name">{{ item.name | markdownify }}</div>
         </div>
