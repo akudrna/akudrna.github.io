@@ -2,7 +2,7 @@ $color-border: darken(#fff, 25%);
 
 .cv {
   &-section {
-    padding: 1rem 0;
+    margin-top: 1rem;
   }
 
   &-heading {
@@ -32,7 +32,7 @@ $color-border: darken(#fff, 25%);
   }
 
   &-items.styled &-name {
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
   }
 
   &-row {
@@ -42,7 +42,7 @@ $color-border: darken(#fff, 25%);
   &-time {
     width: 10rem;
     margin-right: 1rem;
-    padding: 1.2rem 1rem;
+    padding: 0.5rem 1rem;
     background: $color-bg;
     border-right: 0.25rem solid $color-border;
     border-bottom: 0.15rem solid $color-border;
@@ -60,7 +60,7 @@ $color-border: darken(#fff, 25%);
 
   &-name {
     @include flex(1);
-    padding: 1rem 0;
+    padding: 0.3rem 0;
 
     p {
       margin: 0;
